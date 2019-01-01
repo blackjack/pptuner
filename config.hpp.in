@@ -1,0 +1,7 @@
+#pragma once
+
+namespace config {
+
+static constexpr auto PROJECT_NAME = "@PROJECT_NAME@";
+
+} // namespace config

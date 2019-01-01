@@ -1,5 +1,10 @@
 #include <iostream>
 
+#include "audio/PulseAudio.hpp"
+
 int main() {
-  std::cout << "Hello World" << std::endl;
+  PulseAudio audio;
+  while (true) {
+  audio.run();
+  }
 }
